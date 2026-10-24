@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+build/
+
+# Código fuente y CI: propiedad del autor, no se publican en GitHub
+make_muestra_pdf.py
+tests/
+.github/
+
+# La carpeta assets/ SÍ se publica (contiene la muestra con marca de agua).
