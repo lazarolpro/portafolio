@@ -4,15 +4,16 @@
 > decisiones: diagnostico fallas por causa raíz, integro equipos y sistemas,
 > automatizo procesos, prototipo firmware, valido con metrología, cuantifico
 > eficiencia energética, controlo clima con IoT, diseño enlaces de radio y asisto
-> con IA local — todo con demos reproducibles.
+> con IA local.
 
 > © 2026 Ronny L. Díaz López. **Todos los derechos reservados.** El código fuente,
 > los datos de detalle y los informes completos son propiedad del autor y no se
 > publican. Prohibida su venta o uso comercial sin autorización escrita. Ver
 > [`LICENSE`](LICENSE).
 
-Este repositorio es el índice. Cada capacidad vive en su propio repo y se
-ejecuta sin instalar nada más que Python 3.
+Este repositorio es el índice. Cada capacidad vive en su propio repositorio y se
+presenta como una **vitrina del resultado**: el problema real, qué hace la
+herramienta y una **muestra del informe** con marca de agua.
 
 ## Las nueve capacidades
 
@@ -28,28 +29,13 @@ ejecuta sin instalar nada más que Python 3.
 | 8 | Radiocomunicaciones | [radioenlace-backtoback](https://github.com/lazarolpro/radioenlace-backtoback) | Presupuesto de enlace de radio |
 | 9 | Asistente IA local | [proyectia-asistente](https://github.com/lazarolpro/proyectia-asistente) | Recuperación aumentada (RAG) local |
 
-## Cómo ejecutar todo
+## Qué encontrarás en cada repo
 
-Cada proyecto es independiente y usa solo la biblioteca estándar de Python 3.
-
-```bash
-git clone https://github.com/lazarolpro/rca-telemetria && cd rca-telemetria && python rca.py --demo && python -m pytest -q
-git clone https://github.com/lazarolpro/gateway-industrial && cd gateway-industrial && python gateway.py --demo && python -m pytest -q
-git clone https://github.com/lazarolpro/etl-produccion && cd etl-produccion && python etl_report.py --demo && python -m pytest -q
-git clone https://github.com/lazarolpro/nodo-sensor-esp32 && cd nodo-sensor-esp32 && python sim/sensor_sim.py --sweep
-git clone https://github.com/lazarolpro/banco-validacion-metrologia && cd banco-validacion-metrologia && python validate.py --demo && python -m pytest -q
-git clone https://github.com/lazarolpro/auditoria-energetica && cd auditoria-energetica && python energy_audit.py --demo && python -m pytest -q
-git clone https://github.com/lazarolpro/invernadero-ecosmart && cd invernadero-ecosmart && python demo.py --demo && python -m pytest -q
-git clone https://github.com/lazarolpro/radioenlace-backtoback && cd radioenlace-backtoback && python radioenlace.py --demo && python -m pytest -q
-git clone https://github.com/lazarolpro/proyectia-asistente && cd proyectia-asistente && python asistente.py --demo && python -m pytest -q
-```
-
-## Criterio de cada repo
-
-- El comando del README corre sin instalar dependencias.
-- Hay al menos una salida de evidencia versionada (`report.md`, SVG, JSON).
-- Los tests pasan (`python -m pytest -q`).
-- CI en verde con GitHub Actions.
+- El **problema real** que resuelve la capacidad.
+- Una **muestra del informe** (PDF con marca de agua) con los resultados.
+- Los **datos de entrada** y, cuando aplica, el gráfico o la salida de evidencia.
+- La **licencia propietaria**: el código fuente y los informes completos son del
+  autor y no se publican.
 
 ## Licencia
 
