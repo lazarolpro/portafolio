@@ -20,7 +20,7 @@ herramienta y una **muestra del informe** con marca de agua.
 | # | Capacidad | Repo | Qué demuestra |
 | --- | --- | --- | --- |
 | 1 | Diagnóstico y soporte técnico | [rca-telemetria](https://github.com/lazarolpro/rca-telemetria) | Causa raíz sobre telemetría |
-| 2 | Ingeniería de aplicación | [gateway-industrial](https://github.com/lazarolpro/gateway-industrial) | Integración equipo → API REST |
+| 2 | Integración de sistemas | [gateway-industrial](https://github.com/lazarolpro/gateway-industrial) | Integración equipo → API REST |
 | 3 | Automatización de datos | [etl-produccion](https://github.com/lazarolpro/etl-produccion) | Limpieza + KPIs + informe |
 | 4 | I+D y prototipado | [nodo-sensor-esp32](https://github.com/lazarolpro/nodo-sensor-esp32) | Firmware + simulación online |
 | 5 | Validación y metrología | [banco-validacion-metrologia](https://github.com/lazarolpro/banco-validacion-metrologia) | Conformidad + incertidumbre |
